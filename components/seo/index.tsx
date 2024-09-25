@@ -3,8 +3,13 @@ import { FC } from 'react';
 
 const SEO: FC = () => (
   <Head>
-    <title>Interface Template</title>
-    <link rel="icon" type="image/x-icon" href="/icon.svg" />
+    <title>KUAISU</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/logo
+    .webp"
+    />
   </Head>
 );
 

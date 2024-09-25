@@ -1,12 +1,26 @@
 import { css } from '@emotion/react';
 
 export const GlobalStyles = css`
+  @font-face {
+    font-family: 'Nice Sugar';
+    src: url('/fonts/nice-sugar.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Peach Cake';
+    src: url('/fonts/peach-cake.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
-      Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Peach Cake';
   }
 
   html {
