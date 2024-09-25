@@ -6,7 +6,6 @@ import unikey from 'unikey';
 import { Layout } from '@/components';
 import Particle from '@/components/particles';
 import { TelegramSVG, XSVG } from '@/components/svg';
-import { CA } from '@/constants';
 
 const Home: FC = () => (
   <Layout>
@@ -84,14 +83,16 @@ const Home: FC = () => (
         </Div>
         <Div gap="3rem" display="flex" justifyContent="center">
           <A
-            href=""
+            target="_blank"
+            href="https://x.com/Kuaisu_Sui"
             transition="all 500ms ease-in-out"
             nHover={{ transform: 'scale(1.1)' }}
           >
             <XSVG maxWidth="3rem" maxHeight="3rem" width="100%" />
           </A>
           <A
-            href=""
+            target="_blank"
+            href="https://t.me/KuaisuSui"
             transition="all 500ms ease-in-out"
             nHover={{ transform: 'scale(1.1)' }}
           >
@@ -111,7 +112,8 @@ const Home: FC = () => (
             transition="all 500ms ease-in-out"
             nHover={{ transform: 'scale(1.1)' }}
           >
-            {CA.slice(0, 8)}...{CA.slice(-15)}
+            {/* {CA.slice(0, 8)}...{CA.slice(-15)} */}
+            Coming Soon
           </Button>
         </Div>
       </Div>
