@@ -4,12 +4,7 @@ import { FC } from 'react';
 const SEO: FC = () => (
   <Head>
     <title>KUAISU</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="/logo
-    .webp"
-    />
+    <link rel="icon" type="image/x-icon" href="/logo.webp" />
   </Head>
 );
 
