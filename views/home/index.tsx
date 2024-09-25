@@ -16,7 +16,7 @@ const Home: FC = () => (
       ))}
     </Div>
     <H1
-      mt="6rem"
+      mt="4rem"
       color="#ffff"
       fontSize="6rem"
       textAlign="center"
