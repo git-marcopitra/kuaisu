@@ -3,8 +3,8 @@ import { FC, PropsWithChildren } from 'react';
 
 const Layout: FC<PropsWithChildren> = ({ children }) => (
   <Main
-    height="100vh"
     display="flex"
+    minHeight="100vh"
     alignItems="center"
     flexDirection="column"
     backgroundImage="url(/bg.webp)"

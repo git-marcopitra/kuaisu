@@ -29,7 +29,7 @@ export const GlobalStyles = css`
 
   body,
   html {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   a {
