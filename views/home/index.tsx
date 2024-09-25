@@ -99,23 +99,21 @@ const Home: FC = () => (
             <TelegramSVG maxWidth="3rem" maxHeight="3rem" width="100%" />
           </A>
         </Div>
-        <Div display="flex" justifyContent="center">
-          <Button
-            bg="white"
-            p="1rem 2rem"
-            border="none"
-            color="#264F6A"
-            fontWeight="700"
-            fontSize="1.5rem"
-            borderRadius="0.75rem"
-            boxShadow="6px 6px 0 #264F6A"
-            transition="all 500ms ease-in-out"
-            nHover={{ transform: 'scale(1.1)' }}
-          >
-            {/* {CA.slice(0, 8)}...{CA.slice(-15)} */}
-            Coming Soon
-          </Button>
-        </Div>
+        <Button
+          bg="white"
+          p="1rem 2rem"
+          border="none"
+          color="#264F6A"
+          fontWeight="700"
+          fontSize="1.5rem"
+          borderRadius="0.75rem"
+          boxShadow="6px 6px 0 #264F6A"
+          transition="all 500ms ease-in-out"
+          nHover={{ transform: 'scale(1.1)' }}
+        >
+          {/* {CA.slice(0, 8)}...{CA.slice(-15)} */}
+          Coming Soon
+        </Button>
       </Div>
     </Div>
     <Div />
