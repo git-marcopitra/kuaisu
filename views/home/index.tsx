@@ -27,6 +27,7 @@ const Home: FC = () => (
     <Div
       gap="3rem"
       display="flex"
+      position="relative"
       flexDirection="column"
       justifyContent="center"
     >
