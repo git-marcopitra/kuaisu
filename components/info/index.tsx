@@ -17,36 +17,42 @@ const Info: FC = () => {
         display="grid"
         gridTemplateColumns="1fr 1fr 1fr"
       >
-        <Button
+        <A
           flex="1"
           bg="#ffffff"
           p="1rem 2rem"
           border="none"
           color="#264F6A"
+          target="_blank"
+          rel="noreferrer"
           fontWeight="700"
           fontSize="1.5rem"
           borderRadius="0.75rem"
           boxShadow="6px 6px 0 #264F6A"
           transition="all 500ms ease-in-out"
           nHover={{ transform: 'scale(1.1)' }}
+          href="https://hop.ag/swap/SUI-0xc3b645d1fa1cd16979954f1c1fcfd51e15407ae5f73c892bfadee3ac6bf5412c::kuaisu::KUAISU"
         >
           Buy
-        </Button>
-        <Button
+        </A>
+        <A
           flex="1"
           bg="#ffffff"
           p="1rem 2rem"
           border="none"
           color="#264F6A"
+          target="_blank"
+          rel="noreferrer"
           fontWeight="700"
           fontSize="1.5rem"
           borderRadius="0.75rem"
           boxShadow="6px 6px 0 #264F6A"
           transition="all 500ms ease-in-out"
           nHover={{ transform: 'scale(1.1)' }}
+          href="https://dexscreener.com/sui/0x734acb7e40b4aed2b74726aeb2a3dfc76f76b3a2fd5f6241cf301271cb29c222"
         >
           Chart
-        </Button>
+        </A>
         <Button
           p="1rem"
           bg="white"
