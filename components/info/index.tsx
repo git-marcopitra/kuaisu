@@ -1,5 +1,8 @@
 import { A, Button, Div } from '@stylin.js/elements';
 import { FC, useState } from 'react';
+import toast from 'react-hot-toast';
+
+import { CA } from '@/constants';
 
 import { TelegramSVG, XSVG } from '../svg';
 import InfoModal from './info-modal';
@@ -88,10 +91,13 @@ const Info: FC = () => {
         borderRadius="0.75rem"
         boxShadow="6px 6px 0 #264F6A"
         transition="all 500ms ease-in-out"
+        onClick={() => {
+          window.navigator.clipboard.writeText(CA);
+          toast('CA Copied');
+        }}
         nHover={{ transform: 'scale(1.1)' }}
       >
-        {/* {CA.slice(0, 8)}...{CA.slice(-15)} */}
-        Coming Soon
+        {CA.slice(0, 8)}...{CA.slice(-15)}
       </Button>
       {open && <InfoModal onClose={() => setOpen(false)} />}
     </Div>
