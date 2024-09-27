@@ -43,9 +43,9 @@ const Home: FC = () => (
       >
         <Img
           alt="logo"
-          mr="-6rem"
           src="/logo.webp"
           maxWidth="25rem"
+          transform="translateX(2rem)"
           filter="drop-shadow(0 0 25px #0008)"
         />
       </Motion>

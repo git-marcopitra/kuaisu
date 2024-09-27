@@ -16,4 +16,9 @@ export const TOKENOMICS = [
     value: '15,000,000',
     link: 'https://suiexplorer.com/address/0xb36fb2bf04df0a03a91445c919f7373513ac1ca099afe235894cf30863259fb8?deviceId=c5ad90f0-9d33-42dc-aa49-690d2e68a742&network=mainnet',
   },
+  {
+    name: 'LP Locked Until',
+    value: 'Eternity',
+    link: 'https://suivision.xyz/txblock/GUphwtMsqY1dFMYGBrE4UX7mqptjbAwypo1kP8F3DHVT?tab=Overview',
+  },
 ];
