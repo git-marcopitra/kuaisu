@@ -8,7 +8,12 @@ const Info: FC = () => {
   const [open, setOpen] = useState(false);
   return (
     <Div display="flex" flexDirection="column" gap="1rem">
-      <Div display="flex" gap="1rem" mt="-2rem">
+      <Div
+        mt="-2rem"
+        gap="1rem"
+        display="grid"
+        gridTemplateColumns="1fr 1fr 1fr"
+      >
         <Button
           flex="1"
           bg="#ffffff"
@@ -24,7 +29,6 @@ const Info: FC = () => {
         >
           Buy
         </Button>
-
         <Button
           flex="1"
           bg="#ffffff"

@@ -15,20 +15,20 @@ const Home: FC = () => (
       ))}
     </Div>
     <H1
-      mt="4rem"
       color="#ffff"
       fontSize="6rem"
       textAlign="center"
+      mt={['1rem', '4rem']}
       fontFamily="Peach Cake"
       textShadow="6px 6px 0 #264F6A"
     >
       KUAISU
     </H1>
     <Div
-      gap="3rem"
       display="flex"
       position="relative"
       flexDirection="column"
+      gap={['1rem', '3rem']}
       justifyContent="center"
     >
       <Motion
