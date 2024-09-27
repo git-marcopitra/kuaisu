@@ -1,6 +1,7 @@
 import { A, Button, Div, H2, P } from '@stylin.js/elements';
 import { FC } from 'react';
 
+import { LinkSVG } from '../svg';
 import { TOKENOMICS } from './info.data';
 import { InfoModalProps } from './info.types';
 
@@ -43,12 +44,27 @@ const InfoModal: FC<InfoModalProps> = ({ onClose }) => (
         my="1.5rem"
         display="grid"
         rowGap="0.75rem"
-        gridTemplateColumns="1fr 1fr"
+        gridTemplateColumns="3fr 2fr"
       >
-        {TOKENOMICS.map(({ name, value }) => (
+        {TOKENOMICS.map(({ name, value, link }) => (
           <>
             <P>{name}</P>
-            <P>{value}</P>
+
+            {link ? (
+              <A
+                href={link}
+                gap="0.25rem"
+                display="flex"
+                target="_blank"
+                rel="noreferrer"
+                alignItems="center"
+              >
+                <P>{value}</P>
+                <LinkSVG maxWidth="1rem" maxHeight="1rem" width="100%" />
+              </A>
+            ) : (
+              <P>{value}</P>
+            )}
           </>
         ))}
       </Div>
